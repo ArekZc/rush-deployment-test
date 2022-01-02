@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: 14
       - run: node common/scripts/install-run-rush.js install
-      - run: node common/scripts/install-run-rush.js change -v
+      - run: node common/scripts/install-run-rush.js change -v --no-fetch
 
   publish:
     runs-on: ubuntu-latest
