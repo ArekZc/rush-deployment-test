@@ -1,9 +1,7 @@
-name: Continues Integration
+name: Publish NPM packages
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
     branches: [ master ]
 
 jobs:
@@ -15,4 +13,5 @@ jobs:
         with:
           node-version: 14
       - run: node common/scripts/install-run-rush.js install
-      - run: node common/scripts/install-run-rush.js change -v
+      - run: node common/scripts/install-run-rush.js publish
+
