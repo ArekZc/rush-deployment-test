@@ -4,11 +4,13 @@ specifiers:
   '@rush-temp/test-package-1': file:./projects/test-package-1.tgz
   '@rush-temp/test-package-2': file:./projects/test-package-2.tgz
   jest: 27.4.5
+  rxjs: 7.5.1
 
 dependencies:
   '@rush-temp/test-package-1': file:projects/test-package-1.tgz
   '@rush-temp/test-package-2': file:projects/test-package-2.tgz
   jest: 27.4.5
+  rxjs: 7.5.1
 
 packages:
 
@@ -2207,6 +2209,12 @@ packages:
       glob: 7.2.0
     dev: false
 
+  /rxjs/7.5.1:
+    resolution: {integrity: sha512-KExVEeZWxMZnZhUZtsJcFwz8IvPvgu4G2Z2QyqjZQzUGr32KDYuSxrEYO4w3tFFNbfLozcrKUTvTPi+E9ywJkQ==}
+    dependencies:
+      tslib: 2.3.1
+    dev: false
+
   /safe-buffer/5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
     dev: false
@@ -2413,6 +2421,10 @@ packages:
       punycode: 2.1.1
     dev: false
 
+  /tslib/2.3.1:
+    resolution: {integrity: sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==}
+    dev: false
+
   /type-check/0.3.2:
     resolution: {integrity: sha1-WITKtRLPHTVeP7eE8wgEsrUg23I=}
     engines: {node: '>= 0.8.0'}
@@ -2582,11 +2594,12 @@ packages:
     dev: false
 
   file:projects/test-package-1.tgz:
-    resolution: {integrity: sha512-OlsUISfSv0fQFIPR31TNUH9RyPtd1TrHjzazGgLerQI7ebROuJnBFoB//SC1Z6595PPRGDTnrb3Mmg0+2Gp0cQ==, tarball: file:projects/test-package-1.tgz}
+    resolution: {integrity: sha512-BgCz7QswlHFCvpuvJ9rMiPWiU0A7hqOko3jJuvTxLYv11509mhwuiM7ywEMa9Rfe+cQ5X6cbMOy+dC+7ivtc6w==, tarball: file:projects/test-package-1.tgz}
     name: '@rush-temp/test-package-1'
     version: 0.0.0
     dependencies:
       jest: 27.4.5
+      rxjs: 7.5.1
     transitivePeerDependencies:
       - bufferutil
       - canvas

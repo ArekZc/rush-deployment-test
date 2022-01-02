@@ -2,6 +2,9 @@
   "name": "@typedtools/test-package-1",
   "version": "0.0.1",
   "main": "index.js",
+  "dependencies": {
+    "rxjs": "7.5.1"
+  },
   "devDependencies": {
     "jest": "27.4.5"
   }
