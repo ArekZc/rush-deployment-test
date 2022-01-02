@@ -9,5 +9,6 @@
 # this avoids problems that would otherwise result due to a missing variable being replaced by
 # an empty string.
 
+@typedtools:registry=https://registry.npmjs.org/
 //registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}
 
