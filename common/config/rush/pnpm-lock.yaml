@@ -1,0 +1,23 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/test-package-1': file:./projects/test-package-1.tgz
+  '@rush-temp/test-package-2': file:./projects/test-package-2.tgz
+
+dependencies:
+  '@rush-temp/test-package-1': file:projects/test-package-1.tgz
+  '@rush-temp/test-package-2': file:projects/test-package-2.tgz
+
+packages:
+
+  file:projects/test-package-1.tgz:
+    resolution: {integrity: sha512-Qu5x0bR1dml1J4mn8Q/7l14LP2MglXy4LcJpKZJX0hup0o8CPLyxzO8ots2KDjyP8OStuIWVlefRlW+dqO/sYQ==, tarball: file:projects/test-package-1.tgz}
+    name: '@rush-temp/test-package-1'
+    version: 0.0.0
+    dev: false
+
+  file:projects/test-package-2.tgz:
+    resolution: {integrity: sha512-sfV1oAM1/Z4R5jjuSYjtY7O4T+MWrvb1dnwHvpP0NkE/oP+OSwAvIu/ioGfFmJIY1Vwig5TNvLgr3HDXfuhDXg==, tarball: file:projects/test-package-2.tgz}
+    name: '@rush-temp/test-package-2'
+    version: 0.0.0
+    dev: false
