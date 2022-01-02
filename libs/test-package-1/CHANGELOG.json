@@ -1,0 +1,17 @@
+{
+  "name": "@typedtools/test-package-1",
+  "entries": [
+    {
+      "version": "0.0.1",
+      "tag": "@typedtools/test-package-1_v0.0.1",
+      "date": "Sun, 02 Jan 2022 14:48:30 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "change"
+          }
+        ]
+      }
+    }
+  ]
+}
