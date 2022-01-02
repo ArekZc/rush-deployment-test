@@ -18,7 +18,7 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
       - run: node common/scripts/install-run-rush.js install
-      - run: node common/scripts/install-run-rush.js change -v --no-fetch
+      - run: node common/scripts/install-run-rush.js change -v
 
   publish:
     runs-on: ubuntu-latest
